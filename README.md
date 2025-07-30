@@ -21,12 +21,14 @@
 - Conversations are logged in memory to maintain context during a session.
 
 ## 🗂 Project Structure
+```bash
 AIML-Project-1--Basic-Chatbot/
 ├── data/
 │ └── training_data.yml # Custom training phrases
 ├── chatbot.py # Main script to run the bot
 ├── requirements.txt # Python dependencies
 └── README.md # Project documentation
+```
 
 ## 🛠 Installation
 
@@ -43,7 +45,9 @@ AIML-Project-1--Basic-Chatbot/
 ## 🚀 Usage
 
 Run the chatbot from the command line:
+```bash
 python chatbot.py
+```
 
 CharlieBot will greet you and start asking questions. Try asking:
 - “What can you do?”
